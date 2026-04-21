@@ -1,0 +1,138 @@
+ *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+ }
+
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+ }
+
+header{ 
+    background:rgb(251, 160, 33) ;
+    color: rgb(205, 102, 42);
+    text-align: center;
+    padding: 10px;
+}
+
+nav{
+    background: rgb(249, 113, 72);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu li{
+    margin: 10px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding:  10px 20px;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    background: rgb(253, 208, 119);
+    color: rgb(255, 89, 0);
+    box-shadow: 0 0 10px rgb(96, 51, 0);
+}
+
+main{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    flex: 1;
+background-color: rgb(255, 255, 255);
+
+}
+
+section {
+    flex: 3;
+    min-width: 0;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+
+aside {
+    background-color: rgb(255, 255, 255);
+    flex: 1;           
+    min-width: 120px;
+    max-width: 180px; 
+    padding: 10px;
+}
+
+aside h2 {
+
+    margin-bottom: 6px;
+}
+
+aside a {
+    color: orange;
+    text-decoration: none;
+
+    padding: 3px 0;
+    display: block;
+}
+footer{
+        background:rgb(251, 160, 33) ;
+        text-align: center;
+        margin: 20px;
+        padding: 15px;
+        border-radius: 8px;
+
+}
+
+.divisor {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+}
+
+article img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;      
+    margin-bottom: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+aside video {
+    width: 100%;        
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
